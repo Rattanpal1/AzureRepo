@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [KiwiRail Resgression suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <listeners>
+    <listener class-name="qa.util.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="4" parallel="tests" name="Test Params(failed)" verbose="5">
+    <parameter name="password" value="testpassword"/>
+    <parameter name="username" value="testuser"/>
+    <classes>
+      <class name="qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyRailFreightTab"/>
+          <include name="repoting"/>
+          <include name="pauseReporting"/>
+          <include name="setUp"/>
+          <include name="setVariables"/>
+          <include name="dummy"/>
+        </methods>
+      </class> <!-- qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Test Params(failed) -->
+</suite> <!-- Failed suite [KiwiRail Resgression suite] -->

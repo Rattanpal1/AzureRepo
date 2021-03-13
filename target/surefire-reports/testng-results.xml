@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="KiwiRail Resgression suite" duration-ms="8261" started-at="2021-03-14T11:20:06 NZDT" finished-at="2021-03-14T11:20:15 NZDT">
+    <groups>
+    </groups>
+    <test name="Test Params" duration-ms="8261" started-at="2021-03-14T11:20:06 NZDT" finished-at="2021-03-14T11:20:15 NZDT">
+      <class name="qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setVariables()[pri:0, instance:qa.testcases.HomePageTest@a86356]" name="setVariables" is-config="true" duration-ms="157" started-at="2021-03-14T11:20:06 NZDT" finished-at="2021-03-14T11:20:06 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setVariables -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:qa.testcases.HomePageTest@a86356]" name="setUp" is-config="true" duration-ms="6018" started-at="2021-03-14T11:20:06 NZDT" finished-at="2021-03-14T11:20:12 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyRailFreightTab()[pri:1, instance:qa.testcases.HomePageTest@a86356]" name="verifyRailFreightTab" duration-ms="1680" started-at="2021-03-14T11:20:12 NZDT" finished-at="2021-03-14T11:20:14 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRailFreightTab -->
+        <test-method status="PASS" signature="pauseReporting()[pri:0, instance:qa.testcases.HomePageTest@a86356]" name="pauseReporting" is-config="true" duration-ms="370" started-at="2021-03-14T11:20:14 NZDT" finished-at="2021-03-14T11:20:15 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pauseReporting -->
+      </class> <!-- qa.testcases.HomePageTest -->
+    </test> <!-- Test Params -->
+  </suite> <!-- KiwiRail Resgression suite -->
+</testng-results>

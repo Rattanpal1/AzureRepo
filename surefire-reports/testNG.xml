@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="KiwiRail Resgression suite" verbose="5" thread-count="4" parallel="tests">
+  <test name="Test Params">
+  	<parameter name="username" value="testuser"/>
+	<parameter name="password" value="testpassword"/>
+    <classes>
+		<class name="qa.testcases.HomePageTest"/>
+    </classes>
+  </test>  
+</suite>
